@@ -7,6 +7,6 @@ Created on Sun Jul 30 10:51:43 2017
 """
 
 import cx_Oracle
-con=cx_Oracle.connect('pythonhol/welcome@101.98.66.65/orcl')
+con=cx_Oracle.connect('cl')
 print(con.version)
 con.close()
